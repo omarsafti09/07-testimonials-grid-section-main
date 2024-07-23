@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  background-color: hsl(0, 0%, 81%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.container {
+  display: grid;
+  gap: 1rem;
+}
+
+.testimonial {
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.first-testimonial {
+  background-color: hsl(263, 55%, 52%);
+}
+
+.second-testimonial {
+  background-color: hsl(217, 19%, 35%);
+}
+
+.third-testimonial {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.fourth-testimonial {
+  background-color: hsl(219, 29%, 14%);
+}
+
+.fifth-testimonial {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.icon {
+  position: absolute;
+  opacity: 0.5;
+}
+
+.testimonial__personal {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.testimonial__personal__img {
+  border: 2px hsl(0, 0%, 81%) solid;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: auto;
+}
+
+p {
+  font-size: 13px;
+  font-weight: 500;
+  color: hsl(0, 0%, 81%);
+}
+
+h4,
+h5 {
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+}
+
+.black-text {
+  color: hsl(219, 29%, 14%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
